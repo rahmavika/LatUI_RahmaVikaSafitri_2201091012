@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile2/latihan_11_mei/bottom_nav_bar.dart';
+import 'package:mobile2/latihan_16_mei/akses_kamera.dart';
+import 'package:mobile2/latihan_16_mei/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: PageBottomNavigationBar(),
+      home: PageAwal(),
       debugShowCheckedModeBanner: false,
       //home: const HomePage(title: 'Flutter Demo Home Page'),
     );
